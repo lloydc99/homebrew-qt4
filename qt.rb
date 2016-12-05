@@ -143,4 +143,10 @@ class Qt < Formula
     system "make"
     assert_match(/GitHub/, pipe_output(testpath/"qtnetwork-test 2>&1", nil, 0))
   end
+
+  bottle do
+    root_url "https://dl.bintray.com/lloydc99/bottles-qt4/"
+    sha256 "1f6d9948e2e7393823f9ef7588263389cda72a5e72104cabb0853a140b19ad00" => :sierra
+  end
+
 end
