@@ -17,12 +17,12 @@ class Pyside < Formula
 
   depends_on "cmake" => :build
   depends_on "sphinx-doc" => :build if build.with? "docs"
-  depends_on "cartr/qt4/qt"
+  depends_on "lloydc99/qt4/qt"
 
   if build.with? "python3"
-    depends_on "cartr/qt4/shiboken" => "with-python3"
+    depends_on "lloydc99/qt4/shiboken" => "with-python3"
   else
-    depends_on "cartr/qt4/shiboken"
+    depends_on "lloydc99/qt4/shiboken"
   end
 
   def install

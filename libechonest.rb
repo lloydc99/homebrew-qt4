@@ -13,7 +13,7 @@ class Libechonest < Formula
   end
 
   depends_on "cmake" => :build
-  depends_on "cartr/qt4/qt"
+  depends_on "lloydc99/qt4/qt"
   depends_on "qjson"
 
   conflicts_with "doxygen", :because => "cmake fails to configure build."

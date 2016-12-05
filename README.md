@@ -2,8 +2,8 @@
 
 This Homebrew tap allows you to install Qt4 (and various packages that depend on it) on macOS Sierra. You can install it like this:
 
-    brew tap cartr/qt4
-    brew tap-pin cartr/qt4
+    brew tap lloydc99/qt4
+    brew tap-pin lloydc99/qt4
     brew install qt
 
 The installation may take a little while, since Qt4 will be recompiled from source.

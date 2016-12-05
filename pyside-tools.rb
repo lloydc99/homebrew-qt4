@@ -7,7 +7,7 @@ class PysideTools < Formula
   head "https://github.com/PySide/Tools.git"
 
   depends_on "cmake" => :build
-  depends_on "cartr/qt4/pyside"
+  depends_on "lloydc99/qt4/pyside"
 
   def install
     system "cmake", ".", "-DSITE_PACKAGE=lib/python2.7/site-packages", *std_cmake_args
