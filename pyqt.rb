@@ -86,4 +86,10 @@ class Pyqt < Formula
       system python, "test.py"
     end
   end
+
+  bottle do
+    root_url "https://dl.bintray.com/lloydc99/bottles-qt4/"
+    sha256 "1940bb6946bdc5908627301e1b09d5b7696a7ca53ba34f30847916ef158aff03" => :el_capitan
+  end
+
 end

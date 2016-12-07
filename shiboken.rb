@@ -41,4 +41,10 @@ class Shiboken < Formula
       system python, "-c", "import shiboken"
     end
   end
+
+  bottle do
+    root_url "https://dl.bintray.com/lloydc99/bottles-qt4/"
+    sha256 "61662ea5f8ec00201630fb72bfbb5d706e9fb189ec860f0ce8f7ede3449c4823" => :el_capitan
+  end
+
 end

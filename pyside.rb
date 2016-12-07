@@ -56,4 +56,10 @@ class Pyside < Formula
       system python, "-c", "from PySide import QtCore"
     end
   end
+
+  bottle do
+    root_url "https://dl.bintray.com/lloydc99/bottles-qt4/"
+    sha256 "a098f47bf433627e8c17875fe525db645e14cfc12ba455f5872db636d59d9468" => :el_capitan
+  end
+
 end
