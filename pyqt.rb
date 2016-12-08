@@ -90,6 +90,8 @@ class Pyqt < Formula
   bottle do
     root_url "https://dl.bintray.com/lloydc99/bottles-qt4/"
     sha256 "1940bb6946bdc5908627301e1b09d5b7696a7ca53ba34f30847916ef158aff03" => :el_capitan
+    rebuild 1
+    sha256 "395f48ef1b4d95379ce7955bde8601d0bf0fab6ddf64ff21c7223aa712df3f7c" => :sierra
   end
 
 end
