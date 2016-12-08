@@ -147,7 +147,6 @@ class Qt < Formula
   bottle do
     root_url "https://dl.bintray.com/lloydc99/bottles-qt4/"
     sha256 "1f6d9948e2e7393823f9ef7588263389cda72a5e72104cabb0853a140b19ad00" => :sierra
-    rebuild 1
     sha256 "5b40273a366c0d811ea4e5a88e3ec2ebb71781e0d45a8caface1c0dd4b3140fb" => :el_capitan
   end
 

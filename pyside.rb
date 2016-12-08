@@ -60,7 +60,6 @@ class Pyside < Formula
   bottle do
     root_url "https://dl.bintray.com/lloydc99/bottles-qt4/"
     sha256 "a098f47bf433627e8c17875fe525db645e14cfc12ba455f5872db636d59d9468" => :el_capitan
-    rebuild 1
     sha256 "d8eb5cbf8eacb56ba5baa0e235ce964bf9b9da2cddd774d2880f8fb4ea97fd05" => :sierra
   end
 
